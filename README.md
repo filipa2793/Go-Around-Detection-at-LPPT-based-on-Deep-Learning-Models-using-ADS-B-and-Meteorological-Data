@@ -37,10 +37,7 @@ The following figure shows the flowchart of the methodological process.
 - Bi-LSTM with an attention layer
 - GRU with an attention layer
 
-
-<p align="center">
-  <img src="figures/model_architecture.png" alt="Model's Architecture" width="80%">
-</p>
+![Image](https://github.com/user-attachments/assets/29cbc840-ef1a-4cef-ae31-5e8f4ff5d1ba)
 
 <p align="center">
   <img src="figures/f1score_models.png" alt="F1 score throughout the gates of the six models" width="80%">
