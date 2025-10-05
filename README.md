@@ -4,9 +4,39 @@ Go-arounds are a standard manoeuvre during the final approach, often initiated b
 
 This repository contains the code, datasets and trained models used in this thesis.
 
-## 📁 Repository Structure
+## Dataset Summary
 
-The flight data came from Automatic Dependent Surveillance-Broadcast (ADS-B) transmissions and it was collected from two distinct sources: through a Software Defined Radio (SDR) setup and from the historical dataset provided by the [OpenSky Network](https://opensky-network.org/). The meteorological data was collected from Meteorological Aviation Routine Weather Report (METAR) using the Python's [get-metars](https://pypi.org/project/get-metars) and short-term forecasts from the European Centre for Medium-Range Weather Forecasts (ECMWF) provided by [Instituto Português do Mar e da Atmosfera (IPMA)](https://www.ipma.pt/pt/index.html). The final dataset has 243 522 flights, starting from June 2023 to August 2025, with a go-around percentage of 0.48\%. The following figure shows the methodological process.
+| Property           | Description                            |
+| ------------------ | -------------------------------------- |
+| **Total flights**  | 243,522                                |
+| **Time period**    | June 2023 – August 2025                |
+| **Go-around rate** | 0.48%                                  |
+| **Airport**        | LPPT (Lisbon Humberto Delgado Airport) |
+
+## Methodology
+
+![Methodological Process](figures/methodology.png)
+
+## Data Sources
+
+├── Flight data:
+│ ├── Software Defined Radio (SDR) setup
+│ └── [OpenSky's historical dataset](https://opensky-network.org/)
+│
+├── Weather data:
+│ ├── Meteorological Aviation Routine Weather Report (METAR) collected using Python's [get-metars](https://pypi.org/project/get-metars)
+│ └── European Centre for Medium-Range Weather Forecasts (ECMWF) provided by [Instituto Português do Mar e da Atmosfera (IPMA)](https://www.ipma.pt/pt/index.html)
+
+## Models 
+- LSTM
+- Bi-LSTM
+- GRU
+- LSTM with an attention layer
+- Bi-LSTM with an attention layer
+- GRU with an attention layer
+
+![Model's architecture](figures/model_architecture.png)
+![F1 score throughout the gates of the six models](figures/f1score_models.png)
 
 
 
