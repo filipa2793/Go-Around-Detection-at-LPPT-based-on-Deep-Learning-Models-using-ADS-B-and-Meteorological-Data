@@ -15,10 +15,9 @@ This repository contains the code, datasets and trained models used in this thes
 
 ## Methodology
 
-<p align="center">
-  <img src="figures/methodology.png" alt="Methodological Process" width="80%">
-</p>
-![Methodological Process](figures/methodology.png)
+The following figure shows the flowchart of the methodological process.
+
+![Image](https://github.com/user-attachments/assets/48e4c04d-ef0c-4ccc-9514-f0bee0be1fe7)
 
 ## Data Sources
 
