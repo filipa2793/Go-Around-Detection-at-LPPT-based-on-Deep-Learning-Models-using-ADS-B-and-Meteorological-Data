@@ -13,6 +13,8 @@ This repository contains the code, datasets and trained models used in this thes
 | **Go-around rate** | 0.48%                                  |
 | **Airport**        | LPPT (Lisbon Humberto Delgado Airport) |
 
+To ensure reproducibility, the complete final dataset has been made openly available on [Figshare](https://figshare.com/s/94d64be301fda5f2ea1d).
+
 ## Methodology
 
 The following figure shows the flowchart of the methodological process.
@@ -21,15 +23,14 @@ The following figure shows the flowchart of the methodological process.
 
 ## Data Sources
 
-├── Flight data:
-│ ├── Software Defined Radio (SDR) setup
-│ └── [OpenSky's historical dataset](https://opensky-network.org/)
-│
-├── Weather data:
-│ ├── Meteorological Aviation Routine Weather Report (METAR) collected using Python's [get-metars](https://pypi.org/project/get-metars)
-│ └── European Centre for Medium-Range Weather Forecasts (ECMWF) provided by [Instituto Português do Mar e da Atmosfera (IPMA)](https://www.ipma.pt/pt/index.html)
-
-## Models 
+- **Flight Data**
+  - Software Defined Radio (SDR) setup  
+  - [OpenSky Network — Historical Dataset](https://opensky-network.org/)
+- **Weather Data**
+  - Meteorological Aviation Routine Weather Report (METAR) collected using Python’s [get-metars](https://pypi.org/project/get-metars)
+  - European Centre for Medium-Range Weather Forecasts (ECMWF) provided by [Instituto Português do Mar e da Atmosfera (IPMA)](https://www.ipma.pt/pt/index.html)
+    
+## Models Implemented
 - LSTM
 - Bi-LSTM
 - GRU
@@ -37,11 +38,10 @@ The following figure shows the flowchart of the methodological process.
 - Bi-LSTM with an attention layer
 - GRU with an attention layer
 
+The following figure shows the model architecture of the LSTM with an attention layer.
 ![Image](https://github.com/user-attachments/assets/29cbc840-ef1a-4cef-ae31-5e8f4ff5d1ba)
 
-<p align="center">
-  <img src="figures/f1score_models.png" alt="F1 score throughout the gates of the six models" width="80%">
-</p>
+<img width="1189" height="590" alt="Image" src="https://github.com/user-attachments/assets/b741d660-d3e3-48af-9f56-81952b849500" />
 
 
 
