@@ -18,6 +18,7 @@ This repository contains the code, datasets and trained models used in this thes
 <p align="center">
   <img src="figures/methodology.png" alt="Methodological Process" width="80%">
 </p>
+![Methodological Process](figures/methodology.png)
 
 ## Data Sources
 
