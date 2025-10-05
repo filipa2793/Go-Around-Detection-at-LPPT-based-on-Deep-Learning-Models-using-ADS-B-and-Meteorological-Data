@@ -35,6 +35,10 @@ This repository contains the code, datasets and trained models used in this thes
 - Bi-LSTM with an attention layer
 - GRU with an attention layer
 
+<p align="center">
+  <img src="figures/methodology.png" alt="Methodological Process" width="80%">
+</p>
+
 ![Model's architecture](figures/model_architecture.png)
 ![F1 score throughout the gates of the six models](figures/f1score_models.png)
 
