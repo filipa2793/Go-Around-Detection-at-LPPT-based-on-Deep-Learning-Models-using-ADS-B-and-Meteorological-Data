@@ -6,9 +6,8 @@ This repository contains the code, datasets and trained models used in this thes
 
 ## Dataset Summary
 
-| Property           | Description                            |
 | ------------------ | -------------------------------------- |
-| **Total flights**  | 243,522                                |
+| **Total flights**  | 243,522 flights                        |
 | **Time period**    | June 2023 – August 2025                |
 | **Go-around rate** | 0.48%                                  |
 | **Airport**        | Humberto Delgado Airport (LPPT)        |
