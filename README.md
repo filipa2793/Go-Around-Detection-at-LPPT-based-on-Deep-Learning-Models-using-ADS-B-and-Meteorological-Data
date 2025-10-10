@@ -5,7 +5,7 @@ Go-arounds are a standard manoeuvre during the final approach, often initiated b
 This repository contains the code, datasets and trained models used in this thesis.
 
 ## Dataset Summary
-
+| Flights            | Description                            |
 | ------------------ | -------------------------------------- |
 | **Total flights**  | 243,522 flights                        |
 | **Time period**    | June 2023 – August 2025                |
