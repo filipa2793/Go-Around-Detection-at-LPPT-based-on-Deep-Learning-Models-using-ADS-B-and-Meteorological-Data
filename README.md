@@ -28,7 +28,7 @@ The following figure shows the flowchart of the methodological process.
   - Meteorological Aviation Routine Weather Report (METAR) collected using Python’s [get-metars](https://pypi.org/project/get-metars)
   - European Centre for Medium-Range Weather Forecasts (ECMWF) provided by [Instituto Português do Mar e da Atmosfera (IPMA)](https://www.ipma.pt/pt/index.html)
     
-## Models Implemented
+## Deep Learning Models
 - LSTM
 - Bi-LSTM
 - GRU
