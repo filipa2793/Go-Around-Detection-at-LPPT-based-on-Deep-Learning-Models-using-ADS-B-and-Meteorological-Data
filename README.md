@@ -5,12 +5,11 @@ Go-arounds are a standard manoeuvre during the final approach, often initiated b
 This repository contains the code, datasets and trained models used in this thesis.
 
 ## Dataset Summary
-| Flights            | Description                            |
-| ------------------ | -------------------------------------- |
-| **Total flights**  | 243,522 flights                        |
-| **Time period**    | June 2023 – August 2025                |
-| **Go-around rate** | 0.48%                                  |
-| **Airport**        | Humberto Delgado Airport (LPPT)        |
+
+- **Total flights**: 243,522 flights
+- **Time period**: June 2023 – August 2025
+- **Go-around rate**: 0.48%                       
+- **Airport**: Humberto Delgado Airport (LPPT)
 
 To ensure reproducibility, the complete final dataset has been made openly available on [Figshare](https://figshare.com/s/94d64be301fda5f2ea1d).
 
