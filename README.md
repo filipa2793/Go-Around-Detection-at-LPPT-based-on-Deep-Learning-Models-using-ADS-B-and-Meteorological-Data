@@ -36,10 +36,11 @@ The following figure shows the flowchart of the methodological process.
 - Bi-LSTM with an attention layer
 - GRU with an attention layer
 
-The following figure shows the model architecture of the LSTM with an attention layer.
+The following figure shows the chosen model's architecture of the LSTM with an attention layer.
+
 ![Image](https://github.com/user-attachments/assets/29cbc840-ef1a-4cef-ae31-5e8f4ff5d1ba)
 
-<img width="1189" height="590" alt="Image" src="https://github.com/user-attachments/assets/b741d660-d3e3-48af-9f56-81952b849500" />
+
 
 
 
